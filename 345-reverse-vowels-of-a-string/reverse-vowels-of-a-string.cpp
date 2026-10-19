@@ -2,7 +2,7 @@ class Solution {
 public:
     string reverseVowels(string s) {
 
-      string ans = "";
+      string ans = " ";
         for(int i=0; i<s.size(); i++){
             char c = tolower(s[i]);
             if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u')
